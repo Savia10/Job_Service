@@ -1,0 +1,31 @@
+CREATE DATABASE [Databasename];
+GO
+
+USE [Databasename];
+GO
+
+CREATE TABLE [dbo].[JobDataTable] (
+[Id] int IDENTITY(1, 1) NOT NULL,
+[title] nvarchar(255) NULL,
+[description] nvarchar(3000) NULL,
+[locationId] bigint NULL,
+[departmentId] bigint NULL,
+[closingDate] datetime2(7) NULL,
+[department] nvarchar(3000) NULL,
+[location] nvarchar(3000) NULL)
+
+INSERT INTO Databasename.dbo.JobDataTable
+( title, description, locationId, departmentId, closingDate, department, location) VALUES
+( N'SE', N'Job description here...', 10030, 2085, '8/30/2021 18:43:31.0000000', NULL, NULL), 
+( N'SSE', N'Associate', 20, 0, '3/11/2023 05:59:44.1933333', NULL, NULL), 
+( N'TA', N'Mid level', 30, 0, '3/11/2023 05:59:44.1933333', NULL, NULL)
+
+select * from JobDataTable
+
+INSERT INTO Databasename.dbo.JobDataTable
+( title, department, location) VALUES
+('LC','[{ "id": 2085,"title": "Software Development" }]','[{"id": 10030,"title": "US Head Offic","city": "Baltimore","state": "MD","country":"United States,"zip": 21202 }]'),
+('PC','[ { "id": 2086,"title": "Software Testing" }]','[{"id": 10030,"title": "UK Head Office","city": "London","state":"GBR","country":"United Kingdom","zip": 31202 }]'),
+('LCC','[{ "id": 2087,"title": "Software Development" }]','[{"id": 10030,"title": "US Head Offic","city": "Baltimore","state": "MD","country":"United States,"zip": 21202 }]')
+
+
