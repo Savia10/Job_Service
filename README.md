@@ -27,7 +27,7 @@ GET - departments/{id?}
 Returns all the jobs listed in database table having non nullable departments
 
 2.https://localhost:44365/api/v1/departments/2001
-Returns all the jobs listed in database table with 2002 as department value
+Returns all the jobs listed in database table with 2001 as department value
 
 GET - locations/{id?}
 1.https://localhost:44365/api/v1/locations
