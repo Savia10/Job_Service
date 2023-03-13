@@ -1,13 +1,13 @@
 # Job_Service
 Dot Net Test 1 - ASP.NET version 4.8
 
-1.API Documentation.md
+1.API Documentation.md - Read file
 
 2.DBscripts.txt - SQL server Database scripts
 
-3.Job_Service.zip - Enitire Job_Service asp.net core web application + Job_ServiceTests unit testing ,used Postman to test the endpoints.
+3.Job_Service.zip - Entire Job_Service asp.net core web application + Job_ServiceTests unit testing ,used Postman to test the endpoints.
 
-4.Rest is the uploaded api solution consisting of folders Common,Controllers,Service,Models,Job_ServiceTests,Job_Service.csproj,Program.cs,Startup.cs,appsettings.Development.json,appsettings.json,nlog.config 
+4.The uploaded api solution consisting of folders Common,Controllers,Service,Models,Job_ServiceTests,Job_Service.csproj,Program.cs,Startup.cs,appsettings.Development.json,appsettings.json,nlog.config 
 
 API Base route - api/v1/
 
