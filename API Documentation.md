@@ -42,6 +42,3 @@ Returns all the jobs listed in database table having non nullable locations
 
 2.https://localhost:44365/api/v1/locations/3001 
 Returns all the jobs listed in database table with 3001 as location id value
-
-
-
