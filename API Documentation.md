@@ -3,7 +3,7 @@ Dot Net Test 1 - ASP.NET version 4.8
 
 1.DBscripts.txt - SQL server Database scripts
 
-2.Job_Service.zip - Job_Service asp.net core web application,Job_ServiceTests unit testing containing 
+2.Job_Service.zip - Enitire Job_Service asp.net core web application,Job_ServiceTests unit testing containing 
 ViewController.cs,ErrorController.cs (Controllers) : User.cs,Error.cs(Model): CVRepository,ICVRepository (Services) ,used Postman to test the endpoints.
 
 Base route - api/v1/
