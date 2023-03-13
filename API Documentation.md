@@ -7,7 +7,10 @@ Dot Net Test 1 - ASP.NET version 4.8
 
 3.Job_Service.zip - Entire Job_Service asp.net core web application + Job_ServiceTests unit testing ,used Postman to test the endpoints.
 
-4.The uploaded api solution consisting of folders Common,Controllers,Service,Models,Job_ServiceTests,Job_Service.csproj,Program.cs,Startup.cs,appsettings.Development.json,appsettings.json,nlog.config 
+4.The uploaded api solution consisting of folders for 
+Job_Service asp.net core web application - Common,Controllers,Service,Models,Job_Service.csproj,Program.cs,Startup.cs,appsettings.Development.json,appsettings.json,nlog.config 
+
+Job_ServiceTests unit testing - Job_ServiceTests/Controllers
 
 API Base route - api/v1/
 
